@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alumnation.net/sitemap.xml

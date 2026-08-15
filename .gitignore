@@ -1,0 +1,6 @@
+_extract/
+Validation/
+.DS_Store
+Thumbs.db
+.vercel
+node_modules/
