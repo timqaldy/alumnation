@@ -243,6 +243,11 @@ h2 { font-size: clamp(28px, 4vw, 40px); margin: 0 0 14px; color: var(--navy); }
   padding: 20px 18px;
   min-height: 180px;
   box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.loop-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 40px rgba(18, 38, 58, 0.14);
 }
 .loop-item span {
   display: inline-block;
@@ -268,6 +273,11 @@ h2 { font-size: clamp(28px, 4vw, 40px); margin: 0 0 14px; color: var(--navy); }
   border-radius: var(--radius);
   padding: 24px;
   box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 40px rgba(18, 38, 58, 0.14);
 }
 .card h3 { margin: 0 0 10px; font-size: 22px; color: var(--navy); }
 .card p { margin: 0; color: var(--muted); }
@@ -407,4 +417,6 @@ textarea { min-height: 110px; resize: vertical; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .node-pulse { animation: none; }
+  .loop-item, .card { transition: none; }
+  .loop-item:hover, .card:hover { transform: none; }
 }
