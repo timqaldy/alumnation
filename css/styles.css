@@ -76,6 +76,7 @@ button, input, select, textarea { font: inherit; }
   font-size: 18px;
   letter-spacing: -0.03em;
 }
+.brand span { white-space: nowrap; }
 .brand b { color: var(--blue); font-weight: 700; }
 .brand-mark {
   width: 32px;
