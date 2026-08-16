@@ -282,6 +282,37 @@ h2 { font-size: clamp(28px, 4vw, 40px); margin: 0 0 14px; color: var(--navy); }
 .card h3 { margin: 0 0 10px; font-size: 22px; color: var(--navy); }
 .card p { margin: 0; color: var(--muted); }
 .card ul { margin: 10px 0 0; padding-left: 18px; color: var(--muted); }
+.card-kicker {
+  display: inline-block;
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.usp-banner {
+  background: var(--navy);
+  color: #E8EEF5;
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  margin: 0 0 16px;
+  box-shadow: var(--shadow);
+}
+.usp-banner p {
+  margin: 0;
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: clamp(18px, 2.4vw, 24px);
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+.usp-subhead {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: 24px;
+  color: var(--navy);
+  margin: 28px 0 16px;
+}
+.compare-card li { margin-bottom: 8px; }
 
 .metric {
   font-family: "IBM Plex Serif", Georgia, serif;
